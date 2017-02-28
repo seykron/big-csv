@@ -53,6 +53,10 @@ data of *bufferSize* size into memory and parses it directly from the buffer.
 It doesn't perform any String operation which are the most cpu-expensive
 operations.
 
+I have not serious benchmarks, but it reads 46,264,832 records (~4.2GB file) in
+about 9.4 minutes in an Intel Core i7 processor. It's a rate of 82030
+records/sec.
+
 # Extension
 
 If you need a different data source, it should be easy to extend since the
