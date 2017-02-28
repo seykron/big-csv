@@ -1,0 +1,15 @@
+{
+  "name": "big-csv",
+  "version": "1.0.0",
+  "description": "Binary parser for big CSV datasets focused on performance",
+  "main": "index.js",
+  "repository": "https://github.com/seykron/big-csv",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seykron <seykron@riseup.net>",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "debug": "^2.6.1"
+  }
+}
