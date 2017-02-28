@@ -1,9 +1,9 @@
 {
-  "name": "big-csv",
+  "name": "ds-csv",
   "version": "1.0.0",
   "description": "Binary parser for big CSV datasets focused on performance",
   "main": "index.js",
-  "repository": "https://github.com/seykron/big-csv",
+  "repository": "https://github.com/seykron/ds-csv",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
