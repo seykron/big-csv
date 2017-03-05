@@ -1,5 +1,5 @@
-big-csv
-=======
+ds-csv
+======
 
 Binary parser for big CSV datasets.
 
@@ -7,7 +7,7 @@ Binary parser for big CSV datasets.
 
 ```
 const DATA_SOURCE = "big-dataset.csv";
-const CSV = require("big-csv");
+const CSV = require("ds-csv");
 
 var count = 0;
 var parser = new CSV().parseFile(DATA_SOURCE);
