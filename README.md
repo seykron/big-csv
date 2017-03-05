@@ -34,7 +34,11 @@ guaranteed.
 
 ## CSV#parseFile(file)
 
-Returns a parser for a file in the file system.
+Returns a parser for a file in the file system. The parser is a ReadStream
+working in **object mode** that provides a single record for each
+```data``` event. The record is an array of values, one for each column in the
+CSV. The first ```data``` event contains the column names (if present in the
+file).
 
 **file**: CSV file to read.
 
